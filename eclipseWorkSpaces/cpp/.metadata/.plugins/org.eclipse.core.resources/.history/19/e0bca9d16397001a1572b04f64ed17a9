@@ -3,7 +3,7 @@
 *     *     *     *     *     *     *     *     *     *		
 	*     *     *     *     *     *     *     *     *   
 
-                    || مصنف:موسیقار پروگرامر ||
+                   || مصنف:موسیقار پروگرامر ||
     
     *     *     *     *     *     *     *     *     *		
 *      *     *     *     *     *     *     *     *     *      
@@ -11,5 +11,17 @@
 
 */
 
-# sole
-sole of c++ programming by moosikar the programmer (موسیقار پروگرامر)
+
+/*
+ * main.cpp
+ *
+ *  Created on: May 16, 2020
+ *      Author: shahzadb
+ */
+
+
+
+
+int main(int argc, char **argv) {
+	return 0
+}
