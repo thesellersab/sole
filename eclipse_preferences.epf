@@ -1,0 +1,36 @@
+#Thu Jun 04 00:54:33 PDT 2020
+\!/=
+/instance/org.eclipse.cdt.ui/c_braces=64,0,0
+/instance/org.eclipse.cdt.ui/c_braces_bold=true
+/instance/org.eclipse.cdt.ui/c_keyword=0,0,255
+/instance/org.eclipse.cdt.ui/c_numbers=255,0,0
+/instance/org.eclipse.cdt.ui/c_type=255,0,0
+/instance/org.eclipse.cdt.ui/content_assist_disabled_computers=org.eclipse.cdt.ui.textProposalCategory\u0000org.eclipse.cdt.ui.parserProposalCategory\u0000
+/instance/org.eclipse.cdt.ui/content_assist_proposals_timeout=5000
+/instance/org.eclipse.cdt.ui/formatter_profile=org.eclipse.cdt.ui.default.allman_profile
+/instance/org.eclipse.cdt.ui/hoverModifierMasks=org.eclipse.cdt.ui.BestMatchHover;0;org.eclipse.cdt.debug.internal.ui.editors.DebugTextHover;0;org.eclipse.cdt.ui.ProblemHover;0;org.eclipse.cdt.ui.CDocHover;0;org.eclipse.cdt.ui.CMacroExpansionHover;0;org.eclipse.cdt.ui.CSourceHover;131072;org.eclipse.cdt.ui.AnnotationHover;0;
+/instance/org.eclipse.cdt.ui/hoverModifiers=org.eclipse.cdt.ui.BestMatchHover;0;org.eclipse.cdt.debug.internal.ui.editors.DebugTextHover;\!0;org.eclipse.cdt.ui.ProblemHover;\!0;org.eclipse.cdt.ui.CDocHover;\!0;org.eclipse.cdt.ui.CMacroExpansionHover;\!0;org.eclipse.cdt.ui.CSourceHover;Shift;org.eclipse.cdt.ui.AnnotationHover;\!0;
+/instance/org.eclipse.cdt.ui/semanticHighlighting.class.bold=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.class.color=0,0,0
+/instance/org.eclipse.cdt.ui/semanticHighlighting.class.italic=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.enumClass.bold=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.enumClass.color=255,0,255
+/instance/org.eclipse.cdt.ui/semanticHighlighting.enumerator.underline=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.label.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.label.italic=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.label.underline=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.overloadedOperator.bold=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.overloadedOperator.color=255,0,255
+/instance/org.eclipse.cdt.ui/semanticHighlighting.overloadedOperator.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.overloadedOperator.italic=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.typedef.bold=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.typedef.color=255,0,255
+/instance/org.eclipse.cdt.ui/semanticHighlighting.typedef.italic=true
+/instance/org.eclipse.cdt.ui/sourceHoverBackgroundColor=255,255,225
+/instance/org.eclipse.cdt.ui/spelling_locale_initialized=true
+/instance/org.eclipse.cdt.ui/spelling_user_dictionary=C\:\\OLD_PC_DATA\\shahzadData_local\\SOLE\\thesellersab\\sole\\spellCheckDictionary\\spellCheckDict.txt
+/instance/org.eclipse.cdt.ui/spelling_user_dictionary_encoding=
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands>\r\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+F11"/>\r\n<keyBinding commandId\="org.eclipse.debug.ui.commands.RunLast" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+F11"/>\r\n</org.eclipse.ui.commands>
+@org.eclipse.cdt.ui=6.7.0.202003021149
+@org.eclipse.ui.workbench=3.118.0.v20200222-0719
+file_export_version=3.0

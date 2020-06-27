@@ -1,0 +1,3 @@
+https://users.cs.northwestern.edu/~riesbeck/programming/c++/stl-iterators.html
+https://users.cs.northwestern.edu/~riesbeck/programming/c++/stl-iterator-define.html#TOC10
+https://www.geeksforgeeks.org/implementing-iterator-pattern-of-a-single-linked-list/

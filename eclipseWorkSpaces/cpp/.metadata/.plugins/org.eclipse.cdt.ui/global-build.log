@@ -1,12 +1,1041 @@
-04:47:14 **** Incremental Build of configuration Debug for project vector ****
+01:36:54 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'void test_hash_functions()':
+../src/main.cpp:53:23: error: no match for 'operator<<' (operand types are 'const char [10]' and 'std::string {aka std::basic_string<char>}')
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+            ~~~~~~~~~~~^~~~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39:0,
+                 from ../src/student.hpp:25,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:682:5: note: candidate: template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)
+     operator<<(_Ostream&& __os, const _Tp& __x)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:682:5: note:   template argument deduction/substitution failed:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream: In substitution of 'template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = const char (&)[10]; _Tp = std::basic_string<char>]':
+../src/main.cpp:53:25:   required from here
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:682:5: error: no type named 'type' in 'struct std::enable_if<false, void>'
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<char, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39:0,
+                 from ../src/student.hpp:25,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<char, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39:0,
+                 from ../src/student.hpp:25,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<char, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:693:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39,
+                 from ../src/student.hpp:25,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<_CharT, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39:0,
+                 from ../src/student.hpp:25,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<_CharT, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39:0,
+                 from ../src/student.hpp:25,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<char, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39:0,
+                 from ../src/student.hpp:25,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<char, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39:0,
+                 from ../src/student.hpp:25,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<char, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39:0,
+                 from ../src/student.hpp:25,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<_CharT, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39:0,
+                 from ../src/student.hpp:25,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<_CharT, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/ios_base.h:46:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39,
+                 from ../src/student.hpp:25,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/system_error:217:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/system_error:217:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<_CharT, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/string:52:0,
+                 from ../src/student.hpp:24,
+                 from ../src/main.cpp:21:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/basic_string.h:6284:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/basic_string.h:6284:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:53:25: note:   mismatched types 'std::basic_ostream<_CharT, _Traits>' and 'const char [10]'
+  std::cout<"Hash of: "<<name<<" is : "<<calcHash(name,base,mod);
+                         ^~~~
+../src/main.cpp:52:25: warning: unused variable 'hash' [-Wunused-variable]
+  long long unsigned int hash = calcHash(name,base,mod);
+                         ^~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:37:19 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'void test_hash_functions()':
+../src/main.cpp:52:25: warning: unused variable 'hash' [-Wunused-variable]
+  long long unsigned int hash = calcHash(name,base,mod);
+                         ^~~~
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+01:37:34 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'void test_hash_functions()':
+../src/main.cpp:52:25: warning: unused variable 'hash' [-Wunused-variable]
+  long long unsigned int hash = calcHash(name,base,mod);
+                         ^~~~
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+01:38:05 **** Incremental Build of configuration Debug for project hash_tables ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cygwin C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
 Finished building: ../src/main.cpp
  
-Building target: vector.exe
+Building target: hash_tables.exe
 Invoking: Cygwin C++ Linker
-g++  -o "vector.exe"  ./src/main.o   
-Finished building target: vector.exe
+g++  -o "hash_tables.exe"  ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+01:38:29 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+01:39:51 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+01:40:25 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+01:40:52 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+02:17:23 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.cpp:21:0:
+../src/hash_table.hpp:31:7: error: 'struct maosikar' redeclared as different kind of symbol
+ class maosikar {
+       ^~~~~~~~
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:35:11: note: previous declaration 'namespace maosikar { }'
+ namespace maosikar {
+           ^~~~~~~~
+../src/hash_table.cpp:25:1: error: 'HashTable' does not name a type
+ HashTable<tp_T,tp_tableLen>::HashTable()
+ ^~~~~~~~~
+../src/hash_table.cpp:31:1: error: 'HashTable' does not name a type
+ HashTable<tp_T,tp_tableLen>::~HashTable()
+ ^~~~~~~~~
+make: *** [src/subdir.mk:26: src/hash_table.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:17:49 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.cpp:21:0:
+../src/hash_table.hpp:31:7: error: 'struct maosikar' redeclared as different kind of symbol
+ class maosikar {
+       ^~~~~~~~
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:35:11: note: previous declaration 'namespace maosikar { }'
+ namespace maosikar {
+           ^~~~~~~~
+../src/hash_table.cpp:25:1: error: 'HashTable' does not name a type
+ HashTable<tp_T,tp_tableLen>::HashTable()
+ ^~~~~~~~~
+../src/hash_table.cpp:31:1: error: 'HashTable' does not name a type
+ HashTable<tp_T,tp_tableLen>::~HashTable()
+ ^~~~~~~~~
+make: *** [src/subdir.mk:26: src/hash_table.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:18:41 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+./src/main.o: In function `maosikar::calcHash(std::string&, unsigned int, unsigned int)':
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/hash_functions.hpp:38: multiple definition of `maosikar::calcHash(std::string&, unsigned int, unsigned int)'
+./src/hash_table.o:/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/hash_functions.hpp:38: first defined here
+./src/main.o: In function `main':
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:63: undefined reference to `maosikar::HashTable<std::string, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:63:(.text+0x3e2): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<std::string, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:63: undefined reference to `maosikar::HashTable<std::string, 347ul>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:63:(.text+0x3ee): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<std::string, 347ul>::~HashTable()'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:47: hash_tables.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:20:24 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+./src/main.o: In function `main':
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:63: undefined reference to `maosikar::HashTable<std::string, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:63:(.text+0x3e2): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<std::string, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:63: undefined reference to `maosikar::HashTable<std::string, 347ul>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:63:(.text+0x3ee): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<std::string, 347ul>::~HashTable()'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:47: hash_tables.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:22:30 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+./src/main.o: In function `main':
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<std::string, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3e2): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<std::string, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<std::string, 347ul>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3ee): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<std::string, 347ul>::~HashTable()'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:47: hash_tables.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:22:43 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+./src/main.o: In function `main':
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<std::string, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3d8): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<std::string, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<std::string, 347ul>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3e4): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<std::string, 347ul>::~HashTable()'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:47: hash_tables.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:24:29 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+./src/main.o: In function `main':
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3d8): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347ul>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3e4): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347ul>::~HashTable()'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:47: hash_tables.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:25:09 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+../src/hash_table.cpp:31:41: error: no 'maosikar::HashTable<tp_T, tp_tableLen>::~HashTable()' member function declared in class 'maosikar::HashTable<tp_T, tp_tableLen>'
+ HashTable<tp_T,tp_tableLen>::~HashTable()
+                                         ^
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+make: *** [src/subdir.mk:26: src/hash_table.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:25:48 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+./src/main.o: In function `main':
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3d8): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347ul>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3e4): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347ul>::~HashTable()'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:47: hash_tables.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:27:44 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+./src/main.o: In function `main':
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3d8): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347ul>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347ul>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3e4): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347ul>::~HashTable()'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:47: hash_tables.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:30:12 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+./src/main.o: In function `main':
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3d8): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3e4): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347>::~HashTable()'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:47: hash_tables.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:32:43 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+02:33:30 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+../src/hash_table.cpp:30:11: error: declaration of template parameter 'tp_T' shadows template parameter
+ template <typename tp_T, int tp_tableLen>
+           ^~~~~~~~
+../src/hash_table.cpp:24:11: note: template parameter 'tp_T' declared here
+ template <typename tp_T, int tp_tableLen>
+           ^~~~~~~~
+../src/hash_table.cpp:30:26: error: declaration of template parameter 'tp_tableLen' shadows template parameter
+ template <typename tp_T, int tp_tableLen>
+                          ^~~
+../src/hash_table.cpp:24:26: note: template parameter 'tp_tableLen' declared here
+ template <typename tp_T, int tp_tableLen>
+                          ^~~
+../src/hash_table.cpp:31:41: error: invalid use of incomplete type 'class maosikar::HashTable<tp_T, tp_tableLen>'
+ HashTable<tp_T,tp_tableLen>::~HashTable()
+                                         ^
+In file included from ../src/hash_table.cpp:21:0:
+../src/hash_table.hpp:33:7: note: declaration of 'class maosikar::HashTable<tp_T, tp_tableLen>'
+ class HashTable
+       ^~~~~~~~~
+make: *** [src/subdir.mk:26: src/hash_table.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:33:40 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+./src/main.o: In function `main':
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3d8): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347>::~HashTable()'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:47: hash_tables.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:34:06 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+02:34:41 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+02:34:53 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main(int, char**)':
+../src/main.cpp:64:21: warning: unused variable 'hash1' [-Wunused-variable]
+  HashTable<int,347> hash1;
+                     ^~~~~
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+02:35:38 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+02:36:54 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+02:37:13 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+01:46:33 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+../src/hash_table.cpp: In constructor 'maosikar::HashTable<tp_T, tp_tableLen>::HashTable()':
+../src/hash_table.cpp:38:45: error: found ':' in nested-name-specifier, expected '::'
+    std::cout<<"The pointer is not NULL"<<std:endl;
+                                             ^
+../src/hash_table.cpp: At global scope:
+../src/hash_table.cpp:43:41: error: invalid use of incomplete type 'class maosikar::HashTable<tp_T, tp_tableLen>'
+ HashTable<tp_T,tp_tableLen>::~HashTable()
+                                         ^
+In file included from ../src/hash_table.cpp:21:0:
+../src/hash_table.hpp:33:7: note: declaration of 'class maosikar::HashTable<tp_T, tp_tableLen>'
+ class HashTable
+       ^~~~~~~~~
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+make: *** [src/subdir.mk:26: src/hash_table.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:47:09 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+../src/hash_table.cpp:43:41: error: invalid use of incomplete type 'class maosikar::HashTable<tp_T, tp_tableLen>'
+ HashTable<tp_T,tp_tableLen>::~HashTable()
+                                         ^
+In file included from ../src/hash_table.cpp:21:0:
+../src/hash_table.hpp:33:7: note: declaration of 'class maosikar::HashTable<tp_T, tp_tableLen>'
+ class HashTable
+       ^~~~~~~~~
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+make: *** [src/subdir.mk:26: src/hash_table.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:49:01 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+01:49:46 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+01:50:17 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+01:50:32 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+make: Nothing to be done for 'all'.
+01:51:31 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+make: Nothing to be done for 'all'.
+01:52:17 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+make: Nothing to be done for 'all'.
+01:54:09 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+../src/hash_table.cpp: In member function 'int maosikar::HashTable<tp_T, tp_tableLen>::print()':
+../src/hash_table.cpp:51:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp: At global scope:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main(int, char**)':
+../src/main.cpp:65:8: error: request for member 'print' in 'hash1', which is of non-class type 'maosikar::HashTable<int, 347>()'
+  hash1.print();
+        ^~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:54:37 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main(int, char**)':
+../src/main.cpp:65:8: error: request for member 'print' in 'hash1', which is of non-class type 'maosikar::HashTable<int, 347>()'
+  hash1.print();
+        ^~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:05:42 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main(int, char**)':
+../src/main.cpp:65:8: error: request for member 'print' in 'hash1', which is of non-class type 'maosikar::HashTable<int, 347>()'
+  hash1.print();
+        ^~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:07:03 **** Clean-only build of configuration Debug for project hash_tables ****
+make clean 
+rm -rf  ./src/hash_table.o ./src/main.o ./src/student.o  ./src/hash_table.d ./src/main.d ./src/student.d  hash_tables.exe
+ 
+02:07:04 **** Clean-only build of configuration Debug for project vector ****
+make clean 
+rm -rf  ./src/main.o ./src/vector.o  ./src/main.d ./src/vector.d  vector.exe
+ 
+02:07:06 **** Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main(int, char**)':
+../src/main.cpp:65:8: error: request for member 'print' in 'hash1', which is of non-class type 'maosikar::HashTable<int, 347>()'
+  hash1.print();
+        ^~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:10:00 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/student.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/student.d" -MT"src/student.o" -o "src/student.o" "../src/student.cpp"
+../src/student.cpp: In function 'std::ostream& maosikar::operator<<(std::ostream&, const maosikar::Student&)':
+../src/student.cpp:58:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/student.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+02:11:27 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main(int, char**)':
+../src/main.cpp:65:8: error: request for member 'print' in 'hash1', which is of non-class type 'maosikar::HashTable<int, 347>()'
+  hash1.print();
+        ^~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:11:51 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+./src/main.o: In function `main':
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x3de): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347>::HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:65: undefined reference to `maosikar::HashTable<int, 347>::print()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:65:(.text+0x3ea): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347>::print()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x418): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64: undefined reference to `maosikar::HashTable<int, 347>::~HashTable()'
+/cygdrive/c/OLD_PC_DATA/shahzadData_local/SOLE/thesellersab/sole/eclipseWorkSpaces/cpp/hash_tables/Debug/../src/main.cpp:64:(.text+0x42e): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `maosikar::HashTable<int, 347>::~HashTable()'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:47: hash_tables.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:12:21 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main(int, char**)':
+../src/main.cpp:65:8: error: request for member 'print' in 'hash1', which is of non-class type 'maosikar::HashTable<int, 347>()'
+  hash1.print();
+        ^~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:13:21 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main(int, char**)':
+../src/main.cpp:65:8: error: request for member 'print' in 'hash1', which is of non-class type 'maosikar::HashTable<int, 347>()'
+  hash1.print();
+        ^~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:15:01 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+../src/hash_table.cpp:28:1: error: expected '}' at end of input
+ }
+ ^
+In file included from ../src/hash_table.hpp:29:0,
+                 from ../src/hash_table.cpp:21:
+../src/hash_functions.hpp:37:31: warning: 'long long unsigned int maosikar::calcHash(std::string&, unsigned int, unsigned int)' defined but not used [-Wunused-function]
+ static long long unsigned int calcHash(std::string &p_str, unsigned int p_base, unsigned int p_modPrime)
+                               ^~~~~~~~
+make: *** [src/subdir.mk:26: src/hash_table.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:16:11 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main(int, char**)':
+../src/main.cpp:65:8: error: request for member 'print' in 'hash1', which is of non-class type 'maosikar::HashTable<int, 347>()'
+  hash1.print();
+        ^~~~~
+make: *** [src/subdir.mk:26: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:17:32 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/main.cpp:23:0:
+../src/hash_table.hpp: In instantiation of 'maosikar::HashTable<tp_T, tp_tableLen>::HashTable() [with tp_T = int; int tp_tableLen = 347]':
+../src/main.cpp:64:51:   required from here
+../src/hash_table.hpp:50:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i < m_hashTable->size(); i++)
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+02:17:38 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+make: Nothing to be done for 'all'.
+02:18:31 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/main.cpp:23:0:
+../src/hash_table.hpp: In instantiation of 'maosikar::HashTable<tp_T, tp_tableLen>::HashTable() [with tp_T = int; int tp_tableLen = 347]':
+../src/main.cpp:64:51:   required from here
+../src/hash_table.hpp:50:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i < m_hashTable->size(); i++)
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+02:19:42 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/hash_table.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hash_table.d" -MT"src/hash_table.o" -o "src/hash_table.o" "../src/hash_table.cpp"
+Finished building: ../src/hash_table.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/main.cpp:23:0:
+../src/hash_table.hpp: In instantiation of 'maosikar::HashTable<tp_T, tp_tableLen>::HashTable(int) [with tp_T = int; int tp_tableLen = 347]':
+../src/main.cpp:64:53:   required from here
+../src/hash_table.hpp:50:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i < m_hashTable->size(); i++)
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+02:20:11 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/main.cpp:23:0:
+../src/hash_table.hpp: In instantiation of 'maosikar::HashTable<tp_T, tp_tableLen>::HashTable(int) [with tp_T = int; int tp_tableLen = 347]':
+../src/main.cpp:64:27:   required from here
+../src/hash_table.hpp:50:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i < m_hashTable->size(); i++)
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
  
