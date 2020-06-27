@@ -1,0 +1,15 @@
+23:28:18 **** Incremental Build of configuration Debug for project insertionSort ****
+make all 
+Building file: ../src/insertionSort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/insertionSort.d" -MT"src/insertionSort.o" -o "src/insertionSort.o" "../src/insertionSort.cpp"
+Finished building: ../src/insertionSort.cpp
+ 
+Building target: insertionSort.exe
+Invoking: Cygwin C++ Linker
+g++  -o "insertionSort.exe"  ./src/insertionSort.o   
+Finished building target: insertionSort.exe
+ 
+
+23:28:22 Build Finished. 0 errors, 0 warnings. (took 3s.725ms)
+

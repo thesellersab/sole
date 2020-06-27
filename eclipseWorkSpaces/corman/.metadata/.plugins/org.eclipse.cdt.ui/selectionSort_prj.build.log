@@ -1,0 +1,28 @@
+19:26:22 **** Incremental Build of configuration Debug for project selectionSort_prj ****
+make all 
+Building file: ../src/selection_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/selection_sort.d" -MT"src/selection_sort.o" -o "src/selection_sort.o" "../src/selection_sort.cpp"
+../src/selection_sort.cpp: In instantiation of 'void print1DArray(tt_type*, long unsigned int) [with tt_type = double]':
+../src/selection_sort.cpp:56:25:   required from here
+../src/selection_sort.cpp:13:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+../src/selection_sort.cpp: In instantiation of 'void selectionSort(tt_type*, long unsigned int) [with tt_type = double]':
+../src/selection_sort.cpp:57:25:   required from here
+../src/selection_sort.cpp:31:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+../src/selection_sort.cpp:34:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int j = i+1; j < size; j++)
+                    ~~^~~~~~
+Finished building: ../src/selection_sort.cpp
+ 
+Building target: selectionSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "selectionSort_prj.exe"  ./src/selection_sort.o   
+Finished building target: selectionSort_prj.exe
+ 
+
+19:26:24 Build Finished. 0 errors, 3 warnings. (took 2s.668ms)
+

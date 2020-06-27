@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;insertionSort_prj&apos; to &apos;01_insertionSort_prj&apos;" description="Rename resource &apos;insertionSort_prj&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/insertionSort_prj" name="01_insertionSort_prj" stamp="1592706441182" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;mergeSort_prj&apos; to &apos;03_mergeSort_prj&apos;" description="Rename resource &apos;mergeSort_prj&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/mergeSort_prj" name="03_mergeSort_prj" stamp="1592706492435" updateReferences="true"/>
+</session>

@@ -1,0 +1,8 @@
+16:07:36 **** Clean-only build of configuration Debug for project 01_insertionSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make clean 
+rm -rf  ./src/insertion_sort.o  ./src/insertion_sort.d  01_insertionSort_prj.exe
+ 
+
+16:07:36 Build Finished. 0 errors, 0 warnings. (took 100ms)
+

@@ -1,0 +1,628 @@
+16:07:49 **** Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:07:53 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+16:07:58 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+16:09:18 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:09:25 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+16:13:03 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+16:13:55 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+16:14:16 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+16:14:39 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+16:16:52 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:20:30 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+16:21:49 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+16:32:31 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:32:51 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:33:01 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:33:32 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:33:56 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:35:48 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+16:39:18 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:39:25 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:58:37 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:59:05 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:59:28 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+16:59:35 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:00:06 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+17:06:09 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+/usr/bin/ld: cannot open output file 03_mergeSort_prj.exe: Text file busy
+collect2: error: ld returned 1 exit status
+make: *** [03_mergeSort_prj.exe] Error 1
+makefile:45: recipe for target '03_mergeSort_prj.exe' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+17:06:17 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+/usr/bin/ld: cannot open output file 03_mergeSort_prj.exe: Text file busy
+collect2: error: ld returned 1 exit status
+makefile:45: recipe for target '03_mergeSort_prj.exe' failed
+make: *** [03_mergeSort_prj.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:07:14 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:07:46 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+17:07:54 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:94:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < size; i++)
+                 ~~^~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:12:06 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In function ‘bool checkSortedArray(tt_type*, int)’:
+../src/merge_sort.cpp:30:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:100:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:17:56 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:21:45 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:22:01 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:22:42 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make: Nothing to be done for 'all'.
+17:25:20 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+/usr/bin/ld: cannot open output file 03_mergeSort_prj.exe: Text file busy
+makefile:45: recipe for target '03_mergeSort_prj.exe' failed
+collect2: error: ld returned 1 exit status
+make: *** [03_mergeSort_prj.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:25:29 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:25:50 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:26:01 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:26:09 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:26:55 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:27:09 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:27:55 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:28:01 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+17:29:05 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of ‘void print1DArray(tt_type*, long unsigned int) [with tt_type = int]’:
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+21:02:33 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of 'void print1DArray(tt_type*, long unsigned int) [with tt_type = int]':
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 

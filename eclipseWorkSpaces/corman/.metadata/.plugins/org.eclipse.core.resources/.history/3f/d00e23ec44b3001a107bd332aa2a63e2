@@ -1,0 +1,25 @@
+/*
+ * selection_sort.cpp
+ *
+ *  Created on: Jun 20, 2020
+ *      Author: shahzadb
+ */
+
+
+
+
+void swap(int &x, int &y)
+{
+	int temp =  x;
+	x = y;
+	y = temp;
+}
+
+void selectionSort(int data[], int size)
+{
+	int minNum = data[0];
+	for(int i = 0; i < size; i++)
+	{
+
+	}
+}

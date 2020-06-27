@@ -1,0 +1,20 @@
+21:02:33 **** Incremental Build of configuration Debug for project 03_mergeSort_prj ****
+make all 
+Building file: ../src/merge_sort.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/merge_sort.d" -MT"src/merge_sort.o" -o "src/merge_sort.o" "../src/merge_sort.cpp"
+../src/merge_sort.cpp: In instantiation of 'void print1DArray(tt_type*, long unsigned int) [with tt_type = int]':
+../src/merge_sort.cpp:115:25:   required from here
+../src/merge_sort.cpp:19:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < p_size; i++)
+                 ~~^~~~~~~~
+Finished building: ../src/merge_sort.cpp
+ 
+Building target: 03_mergeSort_prj.exe
+Invoking: Cygwin C++ Linker
+g++  -o "03_mergeSort_prj.exe"  ./src/merge_sort.o   
+Finished building target: 03_mergeSort_prj.exe
+ 
+
+21:02:37 Build Finished. 0 errors, 1 warnings. (took 4s.468ms)
+

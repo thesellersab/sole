@@ -1,0 +1,54 @@
+/*
+ * merge_sort.cpp
+ *
+ *  Created on: Jun 20, 2020
+ *      Author: shahzadb
+ */
+
+#include <stdlib.h>
+void merge(int *data, unsigned long low, unsigned long middle, unsigned long high)
+{
+	int size = low - high + 1;
+	int *sortedArray = (int *)malloc(size * sizeof(int));
+
+	for(int i = 0; i < size; i++)
+	{
+		// case : when low:midle-1 has elements to copy
+		if(low < middle)
+		{
+			if(middle <= high)
+			{
+				if(data[low] < data[middle])
+				{
+					sortedArray[i] = data[low];
+					low++;
+				}
+				else
+				{
+					sortedArray[i] = data[middle];
+					middle++;
+				}
+			}
+			else
+			{
+				sortedArray[i] = data[low];
+				low++;
+			}
+		}
+		else
+		{
+			sortedArray[i] = data[middle++];
+		}
+	}
+	for( int i = 0; i < size; i++)
+	{
+		data[i] = sortedArray[i];
+	}
+	std::memcpy(data,sortedArray,size*sizeof(int));
+}
+
+int main(int argc, char **argv) {
+	int data[8] = {1,2,3,4,5,6,7,8};
+
+	merge
+}

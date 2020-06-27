@@ -1,0 +1,97 @@
+/*
+ * merge_sort.cpp
+ *
+ *  Created on: Jun 20, 2020
+ *      Author: shahzadb
+ */
+
+#include <iostream>
+#include <stdlib.h>
+template <typename tt_type>
+#define DEBUG
+#ifdef DEBUG
+#define PR(var) std::cout<<#var<<"== "<<var<<std::endl;
+#else
+#define PR(var) ;
+#endif
+void print1DArray(tt_type *data, unsigned long size)
+{
+	for(int i = 0; i < size; i++)
+	{
+		std::cout<<data[i]<<", ";
+	}
+	std::cout<<std::endl;
+}
+
+#include <stdlib.h>
+void merge(int *data, unsigned long low, unsigned long middle, unsigned long high)
+{
+	int size = high - low + 1;
+	int *sortedArray = (int *)malloc(size * sizeof(int));
+	unsigned long lowPointer =  low;
+	unsigned long middlePointer = middle;
+	for(int i = 0; i < size; i++)
+	{
+		// case : when low:midle has elements to copy
+		if(lowPointer <= middle)
+		{
+			if(middlePointer < high)
+			{
+				if(data[lowPointer] < data[middlePointer+1])
+				{
+					sortedArray[i] = data[lowPointer];
+					lowPointer++;
+				}
+				else
+				{
+					sortedArray[i] = data[middlePointer+1];
+					middlePointer++;
+				}
+			}
+			else
+			{
+				sortedArray[i] = data[lowPointer];
+				low++;
+			}
+		}
+		else
+		{
+			sortedArray[i] = data[++middlePointer];
+		}
+	}
+	for( int i = 0; i < size; i++)
+	{
+		data[i] = sortedArray[i];
+	}
+	//std::memcpy(data,sortedArray,size*sizeof(int));
+}
+
+
+void mergeSorter(int *data, unsigned long low, unsigned high)
+{
+	PR(high);
+	if(low == high)
+		return;
+	else
+	{
+		unsigned long middle = (low + high)/2;
+		PR(middle);
+		mergeSorter(data, low ,middle);
+		mergeSorter(data, middle+1, high);
+		merge(data,low,middle,high);
+	}
+}
+
+void mergeSort( int *data, int size)
+{
+	mergeSorter(data,0,size-1);
+}
+
+#define SIZE  2
+int main(int argc, char **argv) {
+	//int data[8] = {0,1,1,10,-20,-2,30,400};
+	int data[SIZE] = {20,10};
+	print1DArray(data, SIZE);
+	mergeSort(data,SIZE);
+	print1DArray(data, SIZE);
+}
