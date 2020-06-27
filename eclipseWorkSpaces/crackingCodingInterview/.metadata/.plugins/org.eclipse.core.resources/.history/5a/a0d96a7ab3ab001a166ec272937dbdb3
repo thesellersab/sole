@@ -1,0 +1,18 @@
+/*
+ * oneEditAwayStrings.cpp
+ *
+ *  Created on: Jun 11, 2020
+ *      Author: shahzadb
+ */
+
+
+
+/* Implemented and test a function that checks if the given pair of strings are one edit away.
+*
+* Edit : insert , remove, replace
+* Examples
+*
+* leaf:laf   --> true : remove
+* leaf:leal  --> true : replace
+* leaf:leajf --> true : insert
+*/

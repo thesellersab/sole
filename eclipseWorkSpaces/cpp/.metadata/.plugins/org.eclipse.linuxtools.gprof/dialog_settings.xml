@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="viewer_state_section">
+		<item key="vertical_position" value="0"/>
+		<item key="horizontal_position" value="0"/>
+		<list key="column_order">
+			<item value="0"/>
+			<item value="1"/>
+			<item value="2"/>
+			<item value="3"/>
+			<item value="4"/>
+		</list>
+		<section name="sorter_section">
+			<item key="sort_priority_0" value="0"/>
+			<item key="sort_direction_0" value="-1"/>
+			<item key="sort_priority_1" value="1"/>
+			<item key="sort_direction_1" value="1"/>
+			<item key="sort_priority_2" value="2"/>
+			<item key="sort_direction_2" value="1"/>
+			<item key="sort_priority_3" value="3"/>
+			<item key="sort_direction_3" value="1"/>
+			<item key="sort_priority_4" value="4"/>
+			<item key="sort_direction_4" value="1"/>
+		</section>
+		<section name="hide_show_section">
+			<item key="column_width_0" value="250"/>
+			<item key="column_state_0" value="1"/>
+			<item key="column_width_1" value="100"/>
+			<item key="column_state_1" value="1"/>
+			<item key="column_width_2" value="100"/>
+			<item key="column_state_2" value="1"/>
+			<item key="column_width_3" value="100"/>
+			<item key="column_state_3" value="1"/>
+			<item key="column_width_4" value="100"/>
+			<item key="column_state_4" value="1"/>
+		</section>
+	</section>
+</section>

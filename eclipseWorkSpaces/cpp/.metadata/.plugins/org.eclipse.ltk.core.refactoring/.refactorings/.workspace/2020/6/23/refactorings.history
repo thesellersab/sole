@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;hash_tables/hash_functions.hpp&apos;" deleteContents="false" description="Delete resource &apos;hash_tables/hash_functions.hpp&apos;" element1="/hash_tables/hash_functions.hpp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1591259433577"/>
+</session>

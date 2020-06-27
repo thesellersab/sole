@@ -1,0 +1,18 @@
+00:07:31 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+
+00:07:34 Build Finished. 0 errors, 1 warnings. (took 2s.704ms)
+

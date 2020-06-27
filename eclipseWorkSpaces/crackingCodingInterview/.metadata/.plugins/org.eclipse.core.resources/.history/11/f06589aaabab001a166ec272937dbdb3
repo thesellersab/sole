@@ -1,0 +1,53 @@
+/*
+
+*     *     *     *     *     *     *     *     *     *
+	*     *     *     *     *     *     *     *     *
+
+                   || مصنف:موسیقار پروگرامر ||
+
+    *     *     *     *     *     *     *     *     *
+*      *     *     *     *     *     *     *     *     *
+
+/*
+ * palindromPermutation.cpp
+ *
+ *  Created on: Jun 10, 2020
+ *      Author: موسیقار پروگرامر (Programming Musician)
+ */
+
+
+#include <string>
+#include <iostream>
+
+void tolowerCase(std::string &p_str)
+{
+	for(auto &c:p_str)
+	{
+		c = std::tolower(c);
+	}
+}
+
+bool isPalindrome(std::string &p_str)
+{
+	std::string str(p_str);
+	tolowerCase(p_str);
+	int freqs[26];
+	for(auto &j : freqs)
+	{
+		j = 0;
+	}
+	for(auto c : str)
+	{
+
+	}
+}
+
+int main(int argc, char **argv) {
+	using namespace std;
+	string str("Shahzad");
+	tolowerCase(str);
+	cout<<str<<endl;
+}
+
+
+

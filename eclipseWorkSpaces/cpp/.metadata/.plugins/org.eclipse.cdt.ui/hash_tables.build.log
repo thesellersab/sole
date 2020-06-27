@@ -1,0 +1,20 @@
+02:20:11 **** Incremental Build of configuration Debug for project hash_tables ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/main.cpp:23:0:
+../src/hash_table.hpp: In instantiation of 'maosikar::HashTable<tp_T, tp_tableLen>::HashTable(int) [with tp_T = int; int tp_tableLen = 347]':
+../src/main.cpp:64:27:   required from here
+../src/hash_table.hpp:50:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0; i < m_hashTable->size(); i++)
+Finished building: ../src/main.cpp
+ 
+Building target: hash_tables.exe
+Invoking: Cygwin C++ Linker
+g++  -o "hash_tables.exe"  ./src/hash_table.o ./src/main.o ./src/student.o   
+Finished building target: hash_tables.exe
+ 
+
+02:20:14 Build Finished. 0 errors, 1 warnings. (took 2s.926ms)
+

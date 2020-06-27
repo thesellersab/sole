@@ -1,0 +1,32 @@
+/*
+
+*     *     *     *     *     *     *     *     *     *
+	*     *     *     *     *     *     *     *     *
+
+                   || مصنف:موسیقار پروگرامر ||
+
+    *     *     *     *     *     *     *     *     *
+*      *     *     *     *     *     *     *     *     *
+
+/*
+ * palindromPermutation.cpp
+ *
+ *  Created on: Jun 10, 2020
+ *      Author: موسیقار پروگرامر (Programming Musician)
+ */
+
+
+#include <string>
+#include <iostream>
+
+
+
+
+int main(int argc, char **argv) {
+	using namespace std;
+	string str("Shahzad");
+
+}
+
+
+

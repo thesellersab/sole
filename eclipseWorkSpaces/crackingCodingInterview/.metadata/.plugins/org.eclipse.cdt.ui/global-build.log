@@ -1,0 +1,298 @@
+22:55:33 **** Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+22:55:55 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+make: Nothing to be done for 'all'.
+22:57:41 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+../src/palindromPermutation.cpp: In function 'int main(int, char**)':
+../src/palindromPermutation.cpp:29:24: error: no matching function for call to 'tolower(std::string&)'
+  cout<<std::tolower(str)<<endl;
+                        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/basic_ios.h:37:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ios:44,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39,
+                 from ../src/palindromPermutation.cpp:20:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/locale_facets.h:2645:5: note: candidate: template<class _CharT> _CharT std::tolower(_CharT, const std::locale&)
+     tolower(_CharT __c, const locale& __loc)
+     ^~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/locale_facets.h:2645:5: note:   template argument deduction/substitution failed:
+../src/palindromPermutation.cpp:29:24: note:   candidate expects 2 arguments, 1 provided
+  cout<<std::tolower(str)<<endl;
+                        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/cctype:42:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/localefwd.h:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/string:43,
+                 from ../src/palindromPermutation.cpp:19:
+/usr/include/ctype.h:24:5: note: candidate: int tolower(int)
+ int tolower (int __c);
+     ^~~~~~~
+/usr/include/ctype.h:24:5: note:   no known conversion for argument 1 from 'std::string {aka std::basic_string<char>}' to 'int'
+make: *** [src/subdir.mk:20: src/palindromPermutation.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:57:50 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+../src/palindromPermutation.cpp: In function 'int main(int, char**)':
+../src/palindromPermutation.cpp:29:24: error: no matching function for call to 'tolower(std::string&)'
+  cout<<std::tolower(str)<<endl;
+                        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/basic_ios.h:37:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ios:44,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/iostream:39,
+                 from ../src/palindromPermutation.cpp:20:
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/locale_facets.h:2645:5: note: candidate: template<class _CharT> _CharT std::tolower(_CharT, const std::locale&)
+     tolower(_CharT __c, const locale& __loc)
+     ^~~~~~~
+/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/locale_facets.h:2645:5: note:   template argument deduction/substitution failed:
+../src/palindromPermutation.cpp:29:24: note:   candidate expects 2 arguments, 1 provided
+  cout<<std::tolower(str)<<endl;
+                        ^
+In file included from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/cctype:42:0,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/localefwd.h:42,
+                 from /usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/string:43,
+                 from ../src/palindromPermutation.cpp:19:
+/usr/include/ctype.h:24:5: note: candidate: int tolower(int)
+ int tolower (int __c);
+     ^~~~~~~
+/usr/include/ctype.h:24:5: note:   no known conversion for argument 1 from 'std::string {aka std::basic_string<char>}' to 'int'
+make: *** [src/subdir.mk:20: src/palindromPermutation.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:07:01 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+../src/palindromPermutation.cpp: In function 'int main(int, char**)':
+../src/palindromPermutation.cpp:35:16: error: expected primary-expression before '<<' token
+  std::cout<<std<<endl;
+                ^~
+make: *** [src/subdir.mk:20: src/palindromPermutation.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:07:36 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+23:29:03 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+23:29:25 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+make: Nothing to be done for 'all'.
+23:32:57 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+23:33:58 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+make: Nothing to be done for 'all'.
+23:34:17 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+23:38:41 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+23:39:29 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+make: Nothing to be done for 'all'.
+23:40:29 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+make: Nothing to be done for 'all'.
+23:43:31 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+23:43:49 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+23:44:19 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+make: Nothing to be done for 'all'.
+23:45:32 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+00:06:25 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+00:06:37 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+make: Nothing to be done for 'all'.
+00:06:59 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+00:07:21 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
+00:07:31 **** Incremental Build of configuration Debug for project stringProblems ****
+make all 
+Building file: ../src/palindromPermutation.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindromPermutation.d" -MT"src/palindromPermutation.o" -o "src/palindromPermutation.o" "../src/palindromPermutation.cpp"
+../src/palindromPermutation.cpp:11:1: warning: "/*" within comment [-Wcomment]
+ /*
+  
+Finished building: ../src/palindromPermutation.cpp
+ 
+Building target: stringProblems.exe
+Invoking: Cygwin C++ Linker
+g++  -o "stringProblems.exe"  ./src/palindromPermutation.o   
+Finished building target: stringProblems.exe
+ 
