@@ -9,25 +9,43 @@
                 				
                 <language id="org.eclipse.cdt.core.gcc">
                     					
-                    <entry kind="includePath" name="C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include">
+                    <entry kind="includePath" name="/usr/lib/gcc/x86_64-linux-gnu/7/include">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/usr/include">
+                    <entry kind="includePath" name="/usr/local/include">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/usr/include/w32api">
+                    <entry kind="includePath" name="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="includePath" name="/usr/include/x86_64-linux-gnu">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="includePath" name="/usr/include">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
                     <entry kind="macro" name="_LP64" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="_STDC_PREDEF_H" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -106,12 +124,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__CHAR_BIT__" value="8">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__CYGWIN__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -340,6 +352,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__DEC_EVAL_METHOD__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__ELF__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -957,6 +975,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__GCC_HAVE_DWARF2_CFI_ASM" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -993,7 +1017,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__GNUC_MINOR__" value="4">
+                    <entry kind="macro" name="__GNUC_MINOR__" value="5">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1018,18 +1042,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__GXX_ABI_VERSION" value="1011">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__GXX_MERGED_TYPEINFO_NAMES" value="0">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__GXX_TYPEINFO_EQUALITY_INLINE" value="0">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1449,7 +1461,13 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__PIC__" value="1">
+                    <entry kind="macro" name="__PIC__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__PIE__" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1504,12 +1522,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__SEG_GS" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__SEH__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1629,7 +1641,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__SIZEOF_WCHAR_T__" value="2">
+                    <entry kind="macro" name="__SIZEOF_WCHAR_T__" value="4">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1683,7 +1695,37 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__SSP_STRONG__" value="3">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__STDC_HOSTED__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_IEC_559_COMPLEX__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_IEC_559__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_ISO_10646__" value="201706L">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_NO_THREADS__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1917,31 +1959,31 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__VERSION__" value="&quot;7.4.0&quot;">
+                    <entry kind="macro" name="__VERSION__" value="&quot;7.5.0&quot;">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_MAX__" value="0xffff">
+                    <entry kind="macro" name="__WCHAR_MAX__" value="0x7fffffff">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_MIN__" value="0">
+                    <entry kind="macro" name="__WCHAR_MIN__" value="(-__WCHAR_MAX__ - 1)">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_TYPE__" value="short unsigned int">
+                    <entry kind="macro" name="__WCHAR_TYPE__" value="int">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_WIDTH__" value="16">
+                    <entry kind="macro" name="__WCHAR_WIDTH__" value="32">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -1983,25 +2025,13 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__cdecl" value="__attribute__((__cdecl__))">
+                    <entry kind="macro" name="__code_model_small__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__code_model_medium__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__declspec(x)" value="__attribute__((x))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__fastcall" value="__attribute__((__fastcall__))">
+                    <entry kind="macro" name="__gnu_linux__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2031,19 +2061,25 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__pic__" value="1">
+                    <entry kind="macro" name="__linux" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__stdcall" value="__attribute__((__stdcall__))">
+                    <entry kind="macro" name="__linux__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__thiscall" value="__attribute__((__thiscall__))">
+                    <entry kind="macro" name="__pic__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__pie__" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2073,25 +2109,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="_cdecl" value="__attribute__((__cdecl__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_fastcall" value="__attribute__((__fastcall__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_stdcall" value="__attribute__((__stdcall__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_thiscall" value="__attribute__((__thiscall__))">
+                    <entry kind="macro" name="linux" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2107,43 +2125,67 @@
                 				
                 <language id="org.eclipse.cdt.core.g++">
                     					
-                    <entry kind="includePath" name="C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++">
+                    <entry kind="includePath" name="/usr/include/c++/7">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin">
+                    <entry kind="includePath" name="/usr/include/x86_64-linux-gnu/c++/7">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward">
+                    <entry kind="includePath" name="/usr/include/c++/7/backward">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include">
+                    <entry kind="includePath" name="/usr/lib/gcc/x86_64-linux-gnu/7/include">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/usr/include">
+                    <entry kind="includePath" name="/usr/local/include">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/usr/include/w32api">
+                    <entry kind="includePath" name="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="includePath" name="/usr/include/x86_64-linux-gnu">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="includePath" name="/usr/include">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="_GNU_SOURCE" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
                     <entry kind="macro" name="_LP64" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="_STDC_PREDEF_H" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2222,12 +2264,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__CHAR_BIT__" value="8">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__CYGWIN__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2419,12 +2455,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__DEC64_MAX__" value="9.999999999999999E384DD">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__DEC64_MIN_EXP__" value="(-382)">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -2467,6 +2497,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__ELF__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__EXCEPTIONS" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -2486,6 +2522,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__FLT128_DECIMAL_DIG__" value="36">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__FLT128_DENORM_MIN__" value="8">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2797,6 +2839,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__FLT64X_MAX__" value="long unsigned int">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__FLT64X_MAX__" value="1.18973149535723176502126385303097021e+4932F64x">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -3085,6 +3133,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__GCC_HAVE_DWARF2_CFI_ASM" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -3133,7 +3187,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__GNUC_MINOR__" value="4">
+                    <entry kind="macro" name="__GNUC_MINOR__" value="5">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -3175,19 +3229,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__GXX_MERGED_TYPEINFO_NAMES" value="0">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__GXX_RTTI" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__GXX_TYPEINFO_EQUALITY_INLINE" value="0">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -3613,7 +3655,19 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__PIC__" value="1">
+                    <entry kind="macro" name="__PIC__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__PIE__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__PIE__" value="16">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -3631,7 +3685,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__PTRDIFF_TYPE__" value="long int">
+                    <entry kind="macro" name="__PTRDIFF_TYPE__" value="1024">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -3668,12 +3722,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__SEG_GS" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__SEH__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -3739,12 +3787,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__SIZEOF_INT128__" value="16">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__SIZEOF_INT__" value="4">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -3752,12 +3794,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__SIZEOF_LONG_DOUBLE__" value="16">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__SIZEOF_LONG_LONG__" value="8">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -3793,7 +3829,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__SIZEOF_WCHAR_T__" value="2">
+                    <entry kind="macro" name="__SIZEOF_WCHAR_T__" value="4">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -3847,7 +3883,37 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__SSP_STRONG__" value="3">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__STDC_HOSTED__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_IEC_559_COMPLEX__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_IEC_559__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_ISO_10646__" value="201706L">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_NO_THREADS__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -3860,6 +3926,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__STDC_UTF_32__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_UTF_32__" value="9.999999999999999E384DD">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -4003,12 +4075,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__UINT_FAST64_TYPE__" value="long unsigned int">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__UINT_FAST8_MAX__" value="0xff">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -4075,37 +4141,31 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__VERSION__" value="&quot;7.4.0&quot;">
+                    <entry kind="macro" name="__VERSION__" value="&quot;7.5.0&quot;">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_MAX__" value="0xffff">
+                    <entry kind="macro" name="__WCHAR_MAX__" value="0x7fffffff">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_MIN__" value="0">
+                    <entry kind="macro" name="__WCHAR_MIN__" value="(-__WCHAR_MAX__ - 1)">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_TYPE__" value="short unsigned int">
+                    <entry kind="macro" name="__WCHAR_TYPE__" value="int">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_UNSIGNED__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__WCHAR_WIDTH__" value="16">
+                    <entry kind="macro" name="__WCHAR_WIDTH__" value="32">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -4147,13 +4207,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__cdecl" value="__attribute__((__cdecl__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__code_model_medium__" value="1">
+                    <entry kind="macro" name="__code_model_small__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -4363,13 +4417,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__declspec(x)" value="__attribute__((x))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__fastcall" value="__attribute__((__fastcall__))">
+                    <entry kind="macro" name="__gnu_linux__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -4399,19 +4447,25 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__pic__" value="1">
+                    <entry kind="macro" name="__linux" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__stdcall" value="__attribute__((__stdcall__))">
+                    <entry kind="macro" name="__linux__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__thiscall" value="__attribute__((__thiscall__))">
+                    <entry kind="macro" name="__pic__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__pie__" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -4441,25 +4495,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="_cdecl" value="__attribute__((__cdecl__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_fastcall" value="__attribute__((__fastcall__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_stdcall" value="__attribute__((__stdcall__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_thiscall" value="__attribute__((__thiscall__))">
+                    <entry kind="macro" name="linux" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -4487,25 +4523,43 @@
                 				
                 <language id="org.eclipse.cdt.core.gcc">
                     					
-                    <entry kind="includePath" name="C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include">
+                    <entry kind="includePath" name="/usr/lib/gcc/x86_64-linux-gnu/7/include">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/usr/include">
+                    <entry kind="includePath" name="/usr/local/include">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/usr/include/w32api">
+                    <entry kind="includePath" name="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="includePath" name="/usr/include/x86_64-linux-gnu">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="includePath" name="/usr/include">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
                     <entry kind="macro" name="_LP64" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="_STDC_PREDEF_H" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -4584,12 +4638,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__CHAR_BIT__" value="8">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__CYGWIN__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -4818,6 +4866,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__DEC_EVAL_METHOD__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__ELF__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -5435,6 +5489,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__GCC_HAVE_DWARF2_CFI_ASM" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -5471,7 +5531,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__GNUC_MINOR__" value="4">
+                    <entry kind="macro" name="__GNUC_MINOR__" value="5">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -5496,18 +5556,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__GXX_ABI_VERSION" value="1011">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__GXX_MERGED_TYPEINFO_NAMES" value="0">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__GXX_TYPEINFO_EQUALITY_INLINE" value="0">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -5927,7 +5975,13 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__PIC__" value="1">
+                    <entry kind="macro" name="__PIC__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__PIE__" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -5982,12 +6036,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__SEG_GS" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__SEH__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -6107,7 +6155,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__SIZEOF_WCHAR_T__" value="2">
+                    <entry kind="macro" name="__SIZEOF_WCHAR_T__" value="4">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -6161,7 +6209,37 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__SSP_STRONG__" value="3">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__STDC_HOSTED__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_IEC_559_COMPLEX__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_IEC_559__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_ISO_10646__" value="201706L">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_NO_THREADS__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -6395,31 +6473,31 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__VERSION__" value="&quot;7.4.0&quot;">
+                    <entry kind="macro" name="__VERSION__" value="&quot;7.5.0&quot;">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_MAX__" value="0xffff">
+                    <entry kind="macro" name="__WCHAR_MAX__" value="0x7fffffff">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_MIN__" value="0">
+                    <entry kind="macro" name="__WCHAR_MIN__" value="(-__WCHAR_MAX__ - 1)">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_TYPE__" value="short unsigned int">
+                    <entry kind="macro" name="__WCHAR_TYPE__" value="int">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_WIDTH__" value="16">
+                    <entry kind="macro" name="__WCHAR_WIDTH__" value="32">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -6461,25 +6539,13 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__cdecl" value="__attribute__((__cdecl__))">
+                    <entry kind="macro" name="__code_model_small__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__code_model_medium__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__declspec(x)" value="__attribute__((x))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__fastcall" value="__attribute__((__fastcall__))">
+                    <entry kind="macro" name="__gnu_linux__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -6509,19 +6575,25 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__pic__" value="1">
+                    <entry kind="macro" name="__linux" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__stdcall" value="__attribute__((__stdcall__))">
+                    <entry kind="macro" name="__linux__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__thiscall" value="__attribute__((__thiscall__))">
+                    <entry kind="macro" name="__pic__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__pie__" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -6551,25 +6623,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="_cdecl" value="__attribute__((__cdecl__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_fastcall" value="__attribute__((__fastcall__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_stdcall" value="__attribute__((__stdcall__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_thiscall" value="__attribute__((__thiscall__))">
+                    <entry kind="macro" name="linux" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -6585,43 +6639,67 @@
                 				
                 <language id="org.eclipse.cdt.core.g++">
                     					
-                    <entry kind="includePath" name="C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++">
+                    <entry kind="includePath" name="/usr/include/c++/7">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin">
+                    <entry kind="includePath" name="/usr/include/x86_64-linux-gnu/c++/7">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward">
+                    <entry kind="includePath" name="/usr/include/c++/7/backward">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include">
+                    <entry kind="includePath" name="/usr/lib/gcc/x86_64-linux-gnu/7/include">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/usr/include">
+                    <entry kind="includePath" name="/usr/local/include">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="includePath" name="C:/cygwin64/usr/include/w32api">
+                    <entry kind="includePath" name="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="includePath" name="/usr/include/x86_64-linux-gnu">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="includePath" name="/usr/include">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="_GNU_SOURCE" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
                     <entry kind="macro" name="_LP64" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="_STDC_PREDEF_H" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -6700,12 +6778,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__CHAR_BIT__" value="8">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__CYGWIN__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -6940,6 +7012,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__DEPRECATED" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__ELF__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -7563,6 +7641,12 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__GCC_HAVE_DWARF2_CFI_ASM" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -7611,7 +7695,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__GNUC_MINOR__" value="4">
+                    <entry kind="macro" name="__GNUC_MINOR__" value="5">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -7653,19 +7737,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__GXX_MERGED_TYPEINFO_NAMES" value="0">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__GXX_RTTI" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__GXX_TYPEINFO_EQUALITY_INLINE" value="0">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -8091,7 +8163,13 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__PIC__" value="1">
+                    <entry kind="macro" name="__PIC__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__PIE__" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -8146,12 +8224,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__SEG_GS" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__SEH__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -8271,7 +8343,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__SIZEOF_WCHAR_T__" value="2">
+                    <entry kind="macro" name="__SIZEOF_WCHAR_T__" value="4">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -8325,7 +8397,37 @@
                         					
                     </entry>
                     					
+                    <entry kind="macro" name="__SSP_STRONG__" value="3">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
                     <entry kind="macro" name="__STDC_HOSTED__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_IEC_559_COMPLEX__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_IEC_559__" value="1">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_ISO_10646__" value="201706L">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__STDC_NO_THREADS__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -8553,37 +8655,31 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__VERSION__" value="&quot;7.4.0&quot;">
+                    <entry kind="macro" name="__VERSION__" value="&quot;7.5.0&quot;">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_MAX__" value="0xffff">
+                    <entry kind="macro" name="__WCHAR_MAX__" value="0x7fffffff">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_MIN__" value="0">
+                    <entry kind="macro" name="__WCHAR_MIN__" value="(-__WCHAR_MAX__ - 1)">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_TYPE__" value="short unsigned int">
+                    <entry kind="macro" name="__WCHAR_TYPE__" value="int">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__WCHAR_UNSIGNED__" value="1">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__WCHAR_WIDTH__" value="16">
+                    <entry kind="macro" name="__WCHAR_WIDTH__" value="32">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -8625,13 +8721,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__cdecl" value="__attribute__((__cdecl__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__code_model_medium__" value="1">
+                    <entry kind="macro" name="__code_model_small__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -8841,13 +8931,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__declspec(x)" value="__attribute__((x))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__fastcall" value="__attribute__((__fastcall__))">
+                    <entry kind="macro" name="__gnu_linux__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -8877,19 +8961,25 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__pic__" value="1">
+                    <entry kind="macro" name="__linux" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__stdcall" value="__attribute__((__stdcall__))">
+                    <entry kind="macro" name="__linux__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__thiscall" value="__attribute__((__thiscall__))">
+                    <entry kind="macro" name="__pic__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__pie__" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -8919,25 +9009,7 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="_cdecl" value="__attribute__((__cdecl__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_fastcall" value="__attribute__((__fastcall__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_stdcall" value="__attribute__((__stdcall__))">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="_thiscall" value="__attribute__((__thiscall__))">
+                    <entry kind="macro" name="linux" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
