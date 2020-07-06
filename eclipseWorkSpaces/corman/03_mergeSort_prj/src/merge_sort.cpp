@@ -7,13 +7,13 @@
 
 #include <iostream>
 #include <stdlib.h>
-template <typename tt_type>
 //#define DEBUG
 #ifdef DEBUG
 #define PR(var) std::cout<<#var<<"== "<<var<<std::endl;
 #else
 #define PR(var) ;
 #endif
+template <typename tt_type>
 void print1DArray(tt_type *p_data, unsigned long p_size)
 {
 	for(int i = 0; i < p_size; i++)
