@@ -1,50 +1,108 @@
-19:20:26 **** Incremental Build of configuration Debug for project 06_quickSort_prj ****
+04:15:37 **** Incremental Build of configuration Debug for project 09_2dArray_prj ****
 make all 
-Building file: ../src/quick_sort.cpp
+make: Warning: File 'src/main.d' has modification time 75001 s in the future
+Building file: ../src/main.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/quick_sort.d" -MT"src/quick_sort.o" -o "src/quick_sort.o" "../src/quick_sort.cpp"
-Finished building: ../src/quick_sort.cpp
+g++ -I../../../ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/main.cpp:22:
+../src/traverse_2d_arrays.hpp: In instantiation of ‘void maosikar::spiralTraversal(tt_type (*)[tp_cols], int*) [with tt_type = int; int tp_rows = 3; int tp_cols = 3]’:
+../src/main.cpp:32:43:   required from here
+../src/traverse_2d_arrays.hpp:31:6: warning: unused variable ‘sideLength’ [-Wunused-variable]
+   31 |  int sideLength = tp_rows - 1;
+      |      ^~~~~~~~~~
+Finished building: ../src/main.cpp
  
-Building target: 06_quickSort_prj
+Building target: 09_2dArray_prj
 Invoking: GCC C++ Linker
-g++  -o "06_quickSort_prj"  ./src/main.o ./src/quick_sort.o   
-Finished building target: 06_quickSort_prj
+g++  -o "09_2dArray_prj"  ./src/main.o   
+Finished building target: 09_2dArray_prj
  
-19:20:36 **** Incremental Build of configuration Debug for project 06_quickSort_prj ****
+make: warning:  Clock skew detected.  Your build may be incomplete.
+04:15:43 **** Incremental Build of configuration Debug for project 09_2dArray_prj ****
 make all 
+make: Warning: File 'src/main.d' has modification time 75231 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
 make: Nothing to be done for 'all'.
-19:21:13 **** Incremental Build of configuration Debug for project 06_quickSort_prj ****
+04:16:12 **** Incremental Build of configuration Debug for project 09_2dArray_prj ****
 make all 
+make: Warning: File 'src/main.d' has modification time 75202 s in the future
 Building file: ../src/main.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+g++ -I../../../ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
 ../src/main.cpp: In function ‘int main(int, char**)’:
-../src/main.cpp:32:2: error: ‘quickSort’ was not declared in this scope
-   32 |  quickSort(data, size);
-      |  ^~~~~~~~~
-make: *** [src/subdir.mk:23: src/main.o] Error 1
+../src/main.cpp:35:46: error: found ‘:’ in nested-name-specifier, expected ‘::’
+   35 |  std::cout<<"The Array in Spiral Order:"<<std:endl;
+      |                                              ^
+      |                                              ::
+In file included from ../src/main.cpp:22:
+../src/traverse_2d_arrays.hpp: In instantiation of ‘void maosikar::spiralTraversal(tt_type (*)[tp_cols], int*) [with tt_type = int; int tp_rows = 3; int tp_cols = 3]’:
+../src/main.cpp:32:43:   required from here
+../src/traverse_2d_arrays.hpp:31:6: warning: unused variable ‘sideLength’ [-Wunused-variable]
+   31 |  int sideLength = tp_rows - 1;
+      |      ^~~~~~~~~~
+make: *** [src/subdir.mk:20: src/main.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-19:22:11 **** Incremental Build of configuration Debug for project 06_quickSort_prj ****
+04:16:21 **** Incremental Build of configuration Debug for project 09_2dArray_prj ****
 make all 
+make: Warning: File 'src/main.d' has modification time 75227 s in the future
 Building file: ../src/main.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+g++ -I../../../ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/main.cpp:22:
+../src/traverse_2d_arrays.hpp: In instantiation of ‘void maosikar::spiralTraversal(tt_type (*)[tp_cols], int*) [with tt_type = int; int tp_rows = 3; int tp_cols = 3]’:
+../src/main.cpp:32:43:   required from here
+../src/traverse_2d_arrays.hpp:31:6: warning: unused variable ‘sideLength’ [-Wunused-variable]
+   31 |  int sideLength = tp_rows - 1;
+      |      ^~~~~~~~~~
 Finished building: ../src/main.cpp
  
-Building target: 06_quickSort_prj
+Building target: 09_2dArray_prj
 Invoking: GCC C++ Linker
-g++  -o "06_quickSort_prj"  ./src/main.o ./src/quick_sort.o   
-Finished building target: 06_quickSort_prj
+g++  -o "09_2dArray_prj"  ./src/main.o   
+Finished building target: 09_2dArray_prj
  
-19:22:27 **** Incremental Build of configuration Debug for project 06_quickSort_prj ****
-make all 
-Building file: ../src/main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
+make: warning:  Clock skew detected.  Your build may be incomplete.
+04:16:42 **** Clean-only build of configuration Debug for project 01_insertionSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make clean 
+rm -rf  ./src/insertion_sort.o  ./src/insertion_sort.d  01_insertionSort_prj.exe
  
-Building target: 06_quickSort_prj
-Invoking: GCC C++ Linker
-g++  -o "06_quickSort_prj"  ./src/main.o ./src/quick_sort.o   
-Finished building target: 06_quickSort_prj
+04:16:42 **** Clean-only build of configuration Debug for project 02_selectionSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make clean 
+rm -rf  ./src/selection_sort.o  ./src/selection_sort.d  02_selectionSort_prj.exe
  
+04:16:43 **** Clean-only build of configuration Debug for project 03_mergeSort_prj ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make clean 
+rm -rf  ./src/merge_sort.o  ./src/merge_sort.d  03_mergeSort_prj.exe
+ 
+04:16:43 **** Clean-only build of configuration Debug for project 04_heapSort ****
+Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make clean 
+rm -rf  ./src/heap.o ./src/main.o  ./src/heap.d ./src/main.d  04_heapSort.exe
+ 
+04:16:43 **** Clean-only build of configuration Debug for project 05_dyanamicProgramming_prj ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  05_dyanamicProgramming_prj
+ 
+04:16:44 **** Clean-only build of configuration Debug for project 06_quickSort_prj ****
+make clean 
+rm -rf  ./src/main.o ./src/quick_sort.o  ./src/main.d ./src/quick_sort.d  06_quickSort_prj
+ 
+04:16:44 **** Clean-only build of configuration Debug for project 07_advancingArray_prj ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  07_advancingArray_prj
+ 
+04:16:44 **** Clean-only build of configuration Debug for project 08_stockProfit_prj ****
+make clean 
+make: Warning: File 'objects.mk' has modification time 65007 s in the future
+rm -rf  ./src/main.o  ./src/main.d  08_stockProfit_prj
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+04:16:45 **** Clean-only build of configuration Debug for project 09_2dArray_prj ****
+make clean 
+make: Warning: File 'objects.mk' has modification time 66685 s in the future
+rm -rf  ./src/main.o  ./src/main.d  09_2dArray_prj
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.

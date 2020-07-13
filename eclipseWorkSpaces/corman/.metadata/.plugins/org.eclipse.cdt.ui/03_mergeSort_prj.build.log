@@ -1,8 +1,8 @@
-16:00:35 **** Clean-only build of configuration Debug for project 03_mergeSort_prj ****
+04:16:43 **** Clean-only build of configuration Debug for project 03_mergeSort_prj ****
 Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
 make clean 
 rm -rf  ./src/merge_sort.o  ./src/merge_sort.d  03_mergeSort_prj.exe
  
 
-16:00:36 Build Finished. 0 errors, 0 warnings. (took 76ms)
+04:16:43 Build Finished. 0 errors, 0 warnings. (took 362ms)
 

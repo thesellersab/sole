@@ -1,8 +1,8 @@
-16:00:35 **** Clean-only build of configuration Debug for project 02_selectionSort_prj ****
+04:16:42 **** Clean-only build of configuration Debug for project 02_selectionSort_prj ****
 Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
 make clean 
 rm -rf  ./src/selection_sort.o  ./src/selection_sort.d  02_selectionSort_prj.exe
  
 
-16:00:35 Build Finished. 0 errors, 0 warnings. (took 78ms)
+04:16:43 Build Finished. 0 errors, 0 warnings. (took 343ms)
 
