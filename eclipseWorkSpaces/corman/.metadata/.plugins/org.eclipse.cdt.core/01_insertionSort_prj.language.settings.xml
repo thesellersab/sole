@@ -939,12 +939,6 @@
                         					
                     </entry>
                     					
-                    <entry kind="macro" name="__GCC_ATOMIC_LLONG_LOCK_FREE" value="long int">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
                     <entry kind="macro" name="__GCC_ATOMIC_LLONG_LOCK_FREE" value="2">
                         						
                         <flag value="BUILTIN|READONLY"/>
@@ -1492,6 +1486,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__PTRDIFF_MAX__" value="0x7fffffffffffffffL">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__PTRDIFF_TYPE__" value="long int">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -2258,12 +2258,6 @@
                     </entry>
                     					
                     <entry kind="macro" name="__CHAR32_TYPE__" value="unsigned int">
-                        						
-                        <flag value="BUILTIN|READONLY"/>
-                        					
-                    </entry>
-                    					
-                    <entry kind="macro" name="__CHAR32_TYPE__" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					
@@ -4472,6 +4466,12 @@
                     </entry>
                     					
                     <entry kind="macro" name="__pie__" value="2">
+                        						
+                        <flag value="BUILTIN|READONLY"/>
+                        					
+                    </entry>
+                    					
+                    <entry kind="macro" name="__unix" value="1">
                         						
                         <flag value="BUILTIN|READONLY"/>
                         					

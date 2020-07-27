@@ -3,7 +3,7 @@ LaunchTargetManager/configs/06_quickSort_prj=org.eclipse.launchbar.core.launchTa
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:selectionSort_prj.exe,org.eclipse.launchbar.core.descriptorType.default\:insertionSort.exe,org.eclipse.launchbar.core.descriptorType.default\:03_mergeSort_prj.exe,org.eclipse.launchbar.core.descriptorType.default\:04_heapSort.exe,org.eclipse.launchbar.core.descriptorType.default\:05_dyanamicProgramming_prj,org.eclipse.launchbar.core.descriptorType.default\:06_quickSort_prj,org.eclipse.launchbar.core.descriptorType.default\:07_advancingArray_prj,org.eclipse.launchbar.core.descriptorType.default\:08_stockProfit_prj,org.eclipse.launchbar.core.descriptorType.default\:09_2dArray_prj
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:03_mergeSort_prj.exe,org.eclipse.launchbar.core.descriptorType.default\:04_heapSort.exe,org.eclipse.launchbar.core.descriptorType.default\:05_dyanamicProgramming_prj,org.eclipse.launchbar.core.descriptorType.default\:06_quickSort_prj,org.eclipse.launchbar.core.descriptorType.default\:07_advancingArray_prj,org.eclipse.launchbar.core.descriptorType.default\:08_stockProfit_prj,org.eclipse.launchbar.core.descriptorType.default\:09_2dArray_prj,org.eclipse.launchbar.core.descriptorType.default\:10_stdVectors_prj,org.eclipse.launchbar.core.descriptorType.default\:insertionSort.exe,org.eclipse.launchbar.core.descriptorType.default\:selectionSort_prj.exe,org.eclipse.launchbar.core.descriptorType.default\:stl_set_prj,org.eclipse.launchbar.core.descriptorType.default\:stl_unordered_set_prj,org.eclipse.launchbar.core.descriptorType.default\:stl_map_prj,org.eclipse.launchbar.core.descriptorType.default\:12_smartPointer_prj,org.eclipse.launchbar.core.descriptorType.default\:10_hash_vs_bst_perf_prj22,org.eclipse.launchbar.core.descriptorType.default\:11_graphs_prj
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:03_mergeSort_prj.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:03_mergeSort_prj.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
@@ -12,5 +12,8 @@ org.eclipse.launchbar.core.descriptorType.default\:05_dyanamicProgramming_prj/ac
 org.eclipse.launchbar.core.descriptorType.default\:06_quickSort_prj/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:07_advancingArray_prj/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:09_2dArray_prj/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:11_graphs_prj/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:insertionSort.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:insertionSort.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:stl_map_prj/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:stl_set_prj/activeLaunchMode=run
