@@ -1,5 +1,9 @@
-a,100,b,c,d,f
-d,300,c
-f,450,c
-g,500,b
-h,600,c,f
+A,B
+A,D
+A,C
+A,Z
+B,C
+B,F
+D,E
+E,X
+F,Z

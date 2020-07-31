@@ -1,341 +1,162 @@
-19:52:06 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+03:21:14 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
 make all 
-Building file: ../src/main..cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
-Finished building: ../src/main..cpp
- 
-Building target: 11_graphs_prj
-Invoking: GCC C++ Linker
-g++  -o "11_graphs_prj"  ./src/main..o   
-Finished building target: 11_graphs_prj
- 
-19:52:24 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
-make all 
-Building file: ../src/main..cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
-Finished building: ../src/main..cpp
- 
-Building target: 11_graphs_prj
-Invoking: GCC C++ Linker
-g++  -o "11_graphs_prj"  ./src/main..o   
-Finished building target: 11_graphs_prj
- 
-19:53:27 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
-make all 
-Building file: ../src/main..cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
-Finished building: ../src/main..cpp
- 
-Building target: 11_graphs_prj
-Invoking: GCC C++ Linker
-g++  -o "11_graphs_prj"  ./src/main..o   
-Finished building target: 11_graphs_prj
- 
-19:53:46 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
-make all 
-Building file: ../src/main..cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
-Finished building: ../src/main..cpp
- 
-Building target: 11_graphs_prj
-Invoking: GCC C++ Linker
-g++  -o "11_graphs_prj"  ./src/main..o   
-Finished building target: 11_graphs_prj
- 
-19:55:11 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
-make all 
-Building file: ../src/main..cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
-Finished building: ../src/main..cpp
- 
-Building target: 11_graphs_prj
-Invoking: GCC C++ Linker
-g++  -o "11_graphs_prj"  ./src/main..o   
-Finished building target: 11_graphs_prj
- 
-19:59:10 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
-make all 
-Building file: ../src/main..cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
-Finished building: ../src/main..cpp
- 
-Building target: 11_graphs_prj
-Invoking: GCC C++ Linker
-g++  -o "11_graphs_prj"  ./src/main..o   
-Finished building target: 11_graphs_prj
- 
-20:00:18 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
-make all 
+make: Warning: File 'src/subdir.mk' has modification time 4.6 s in the future
 make: Nothing to be done for 'all'.
-20:02:34 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make: warning:  Clock skew detected.  Your build may be incomplete.
+03:21:17 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
 make all 
+make: Warning: File 'src/subdir.mk' has modification time 4.6 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+03:21:23 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 4.5 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+00:47:14 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.3 s in the future
 Building file: ../src/main..cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
-../src/main..cpp: In function ‘int main(int, char**)’:
-../src/main..cpp:74:8: error: no match for ‘operator<<’ (operand types are ‘std::ostream’ {aka ‘std::basic_ostream<char>’} and ‘std::vector<std::__cxx11::basic_string<char> >’)
-   74 |    cout<<record<<", ";
-      |    ~~~~^~~~~~~~
-      |    |     |
-      |    |     std::vector<std::__cxx11::basic_string<char> >
-      |    std::ostream {aka std::basic_ostream<char>}
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:108:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:108:36: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)’ {aka ‘std::basic_ostream<char>& (*)(std::basic_ostream<char>&)’}
-  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
-      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
-/usr/include/c++/9/ostream:117:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]’
-  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:117:32: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)’ {aka ‘std::basic_ios<char>& (*)(std::basic_ios<char>&)’}
-  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
-      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
-/usr/include/c++/9/ostream:127:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  127 |       operator<<(ios_base& (*__pf) (ios_base&))
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:127:30: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘std::ios_base& (*)(std::ios_base&)’
-  127 |       operator<<(ios_base& (*__pf) (ios_base&))
-      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
-/usr/include/c++/9/ostream:166:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  166 |       operator<<(long __n)
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:166:23: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘long int’
-  166 |       operator<<(long __n)
-      |                  ~~~~~^~~
-/usr/include/c++/9/ostream:170:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  170 |       operator<<(unsigned long __n)
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:170:32: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘long unsigned int’
-  170 |       operator<<(unsigned long __n)
-      |                  ~~~~~~~~~~~~~~^~~
-/usr/include/c++/9/ostream:174:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  174 |       operator<<(bool __n)
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:174:23: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘bool’
-  174 |       operator<<(bool __n)
-      |                  ~~~~~^~~
-In file included from /usr/include/c++/9/ostream:702,
-                 from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/bits/ostream.tcc:91:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]’
-   91 |     basic_ostream<_CharT, _Traits>::
-      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/usr/include/c++/9/bits/ostream.tcc:92:22: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘short int’
-   92 |     operator<<(short __n)
-      |                ~~~~~~^~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:181:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  181 |       operator<<(unsigned short __n)
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:181:33: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘short unsigned int’
-  181 |       operator<<(unsigned short __n)
-      |                  ~~~~~~~~~~~~~~~^~~
-In file included from /usr/include/c++/9/ostream:702,
-                 from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/bits/ostream.tcc:105:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]’
-  105 |     basic_ostream<_CharT, _Traits>::
-      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/usr/include/c++/9/bits/ostream.tcc:106:20: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘int’
-  106 |     operator<<(int __n)
-      |                ~~~~^~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:192:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  192 |       operator<<(unsigned int __n)
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:192:31: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘unsigned int’
-  192 |       operator<<(unsigned int __n)
-      |                  ~~~~~~~~~~~~~^~~
-/usr/include/c++/9/ostream:201:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  201 |       operator<<(long long __n)
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:201:28: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘long long int’
-  201 |       operator<<(long long __n)
-      |                  ~~~~~~~~~~^~~
-/usr/include/c++/9/ostream:205:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  205 |       operator<<(unsigned long long __n)
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:205:37: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘long long unsigned int’
-  205 |       operator<<(unsigned long long __n)
-      |                  ~~~~~~~~~~~~~~~~~~~^~~
-/usr/include/c++/9/ostream:220:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  220 |       operator<<(double __f)
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:220:25: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘double’
-  220 |       operator<<(double __f)
-      |                  ~~~~~~~^~~
-/usr/include/c++/9/ostream:224:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  224 |       operator<<(float __f)
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:224:24: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘float’
-  224 |       operator<<(float __f)
-      |                  ~~~~~~^~~
-/usr/include/c++/9/ostream:232:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  232 |       operator<<(long double __f)
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:232:30: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘long double’
-  232 |       operator<<(long double __f)
-      |                  ~~~~~~~~~~~~^~~
-/usr/include/c++/9/ostream:245:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
-  245 |       operator<<(const void* __p)
-      |       ^~~~~~~~
-/usr/include/c++/9/ostream:245:30: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘const void*’
-  245 |       operator<<(const void* __p)
-      |                  ~~~~~~~~~~~~^~~
-In file included from /usr/include/c++/9/ostream:702,
-                 from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/bits/ostream.tcc:119:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]’
-  119 |     basic_ostream<_CharT, _Traits>::
-      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/usr/include/c++/9/bits/ostream.tcc:120:34: note:   no known conversion for argument 1 from ‘std::vector<std::__cxx11::basic_string<char> >’ to ‘std::basic_ostream<char>::__streambuf_type*’ {aka ‘std::basic_streambuf<char>*’}
-  120 |     operator<<(__streambuf_type* __sbin)
-      |                ~~~~~~~~~~~~~~~~~~^~~~~~
-In file included from /usr/include/c++/9/string:55,
-                 from /usr/include/c++/9/stdexcept:39,
-                 from /usr/include/c++/9/array:39,
-                 from /usr/include/c++/9/tuple:39,
-                 from /usr/include/c++/9/bits/hashtable_policy.h:34,
-                 from /usr/include/c++/9/bits/hashtable.h:35,
-                 from /usr/include/c++/9/unordered_set:46,
-                 from ../src/main..cpp:21:
-/usr/include/c++/9/bits/basic_string.h:6416:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
- 6416 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
-      |     ^~~~~~~~
-/usr/include/c++/9/bits/basic_string.h:6416:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   ‘std::vector<std::__cxx11::basic_string<char> >’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/bits/ios_base.h:46,
-                 from /usr/include/c++/9/ios:42,
-                 from /usr/include/c++/9/ostream:38,
-                 from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/system_error:217:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)’
-  217 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
-      |     ^~~~~~~~
-/usr/include/c++/9/system_error:217:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   cannot convert ‘record’ (type ‘std::vector<std::__cxx11::basic_string<char> >’) to type ‘const std::error_code&’
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:506:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)’
-  506 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
-      |     ^~~~~~~~
-/usr/include/c++/9/ostream:506:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘std::vector<std::__cxx11::basic_string<char> >’)
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:511:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)’
-  511 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
-      |     ^~~~~~~~
-/usr/include/c++/9/ostream:511:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   cannot convert ‘record’ (type ‘std::vector<std::__cxx11::basic_string<char> >’) to type ‘char’
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:517:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)’
-  517 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
-      |     ^~~~~~~~
-/usr/include/c++/9/ostream:517:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   cannot convert ‘record’ (type ‘std::vector<std::__cxx11::basic_string<char> >’) to type ‘char’
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:523:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)’
-  523 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
-      |     ^~~~~~~~
-/usr/include/c++/9/ostream:523:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   cannot convert ‘record’ (type ‘std::vector<std::__cxx11::basic_string<char> >’) to type ‘signed char’
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:528:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)’
-  528 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
-      |     ^~~~~~~~
-/usr/include/c++/9/ostream:528:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   cannot convert ‘record’ (type ‘std::vector<std::__cxx11::basic_string<char> >’) to type ‘unsigned char’
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:548:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)’
-  548 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
-      |     ^~~~~~~~
-/usr/include/c++/9/ostream:548:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   mismatched types ‘const _CharT*’ and ‘std::vector<std::__cxx11::basic_string<char> >’
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/ostream:702,
-                 from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/bits/ostream.tcc:321:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)’
-  321 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
-      |     ^~~~~~~~
-/usr/include/c++/9/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   cannot convert ‘record’ (type ‘std::vector<std::__cxx11::basic_string<char> >’) to type ‘const char*’
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:565:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)’
-  565 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
-      |     ^~~~~~~~
-/usr/include/c++/9/ostream:565:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   cannot convert ‘record’ (type ‘std::vector<std::__cxx11::basic_string<char> >’) to type ‘const char*’
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:578:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)’
-  578 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
-      |     ^~~~~~~~
-/usr/include/c++/9/ostream:578:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   cannot convert ‘record’ (type ‘std::vector<std::__cxx11::basic_string<char> >’) to type ‘const signed char*’
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:583:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)’
-  583 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
-      |     ^~~~~~~~
-/usr/include/c++/9/ostream:583:5: note:   template argument deduction/substitution failed:
-../src/main..cpp:74:10: note:   cannot convert ‘record’ (type ‘std::vector<std::__cxx11::basic_string<char> >’) to type ‘const unsigned char*’
-   74 |    cout<<record<<", ";
-      |          ^~~~~~
-In file included from /usr/include/c++/9/iostream:39,
-                 from ../src/main..cpp:23:
-/usr/include/c++/9/ostream:691:5: note: candidate: ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)’
-  691 |     operator<<(_Ostream&& __os, const _Tp& __x)
-      |     ^~~~~~~~
-/usr/include/c++/9/ostream:691:5: note:   template argument deduction/substitution failed:
-/usr/include/c++/9/ostream: In substitution of ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::vector<std::__cxx11::basic_string<char> >]’:
-../src/main..cpp:74:10:   required from here
-/usr/include/c++/9/ostream:691:5: error: no type named ‘type’ in ‘struct std::enable_if<false, std::basic_ostream<char>&>’
-../src/main..cpp:72:13: warning: unused variable ‘field’ [-Wunused-variable]
-   72 |   for(auto &field : record)
-      |             ^~~~~
+Finished building: ../src/main..cpp
+ 
+Building target: 11_graphs_prj
+Invoking: GCC C++ Linker
+g++  -o "11_graphs_prj"  ./src/main..o   
+Finished building target: 11_graphs_prj
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+00:52:55 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.4 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+00:53:06 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.4 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+00:53:20 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.5 s in the future
+Building file: ../src/main..cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+Finished building: ../src/main..cpp
+ 
+Building target: 11_graphs_prj
+Invoking: GCC C++ Linker
+g++  -o "11_graphs_prj"  ./src/main..o   
+Finished building target: 11_graphs_prj
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+00:53:49 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.5 s in the future
+Building file: ../src/main..cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:145:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  145 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
+Finished building: ../src/main..cpp
+ 
+Building target: 11_graphs_prj
+Invoking: GCC C++ Linker
+g++  -o "11_graphs_prj"  ./src/main..o   
+Finished building target: 11_graphs_prj
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+00:54:05 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.5 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+00:55:09 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.4 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+01:04:26 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.7 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+01:06:48 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.5 s in the future
+Building file: ../src/main..cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:145:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  145 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
+Finished building: ../src/main..cpp
+ 
+Building target: 11_graphs_prj
+Invoking: GCC C++ Linker
+g++  -o "11_graphs_prj"  ./src/main..o   
+Finished building target: 11_graphs_prj
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+01:08:38 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.6 s in the future
+Building file: ../src/main..cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:145:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  145 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
+Finished building: ../src/main..cpp
+ 
+Building target: 11_graphs_prj
+Invoking: GCC C++ Linker
+g++  -o "11_graphs_prj"  ./src/main..o   
+Finished building target: 11_graphs_prj
+make: warning:  Clock skew detected.  Your build may be incomplete.
+ 
+01:13:47 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.9 s in the future
+Building file: ../src/main..cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:136:25: error: ‘team’ was not declared in this scope; did you mean ‘teamB’?
+  136 |  if(isBeatable(p_graph, team, teamA))
+      |                         ^~~~
+      |                         teamB
+../src/main..cpp:145:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  145 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
 make: *** [src/subdir.mk:20: src/main..o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-20:02:54 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+01:13:58 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
 make all 
+make: Warning: File 'src/subdir.mk' has modification time 7.9 s in the future
+Building file: ../src/main..cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:145:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  145 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
+Finished building: ../src/main..cpp
+ 
+Building target: 11_graphs_prj
+Invoking: GCC C++ Linker
+g++  -o "11_graphs_prj"  ./src/main..o   
+Finished building target: 11_graphs_prj
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+01:14:46 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Warning: File 'src/subdir.mk' has modification time 8 s in the future
 Building file: ../src/main..cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
@@ -346,11 +167,16 @@ Invoking: GCC C++ Linker
 g++  -o "11_graphs_prj"  ./src/main..o   
 Finished building target: 11_graphs_prj
  
-20:03:39 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make: warning:  Clock skew detected.  Your build may be incomplete.
+02:39:55 **** Build of configuration Debug for project 11_graphs_prj ****
 make all 
 Building file: ../src/main..cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:145:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  145 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
 Finished building: ../src/main..cpp
  
 Building target: 11_graphs_prj
@@ -358,14 +184,53 @@ Invoking: GCC C++ Linker
 g++  -o "11_graphs_prj"  ./src/main..o   
 Finished building target: 11_graphs_prj
  
-20:04:01 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+02:40:09 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
 make all 
 make: Nothing to be done for 'all'.
-20:05:51 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+02:54:49 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
 make all 
 Building file: ../src/main..cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:146:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  146 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
+Finished building: ../src/main..cpp
+ 
+Building target: 11_graphs_prj
+Invoking: GCC C++ Linker
+g++  -o "11_graphs_prj"  ./src/main..o   
+Finished building target: 11_graphs_prj
+ 
+02:56:50 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+Building file: ../src/main..cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:146:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  146 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
+Finished building: ../src/main..cpp
+ 
+Building target: 11_graphs_prj
+Invoking: GCC C++ Linker
+g++  -o "11_graphs_prj"  ./src/main..o   
+Finished building target: 11_graphs_prj
+ 
+02:57:50 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Nothing to be done for 'all'.
+03:24:06 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+Building file: ../src/main..cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:146:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  146 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
 Finished building: ../src/main..cpp
  
 Building target: 11_graphs_prj
@@ -375,18 +240,22 @@ g++  -o "11_graphs_prj"  ./src/main..o
 collect2: error: ld returned 1 exit status
 make: *** [makefile:47: 11_graphs_prj] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-20:05:58 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+03:24:21 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
 make all 
 Building target: 11_graphs_prj
 Invoking: GCC C++ Linker
 g++  -o "11_graphs_prj"  ./src/main..o   
 Finished building target: 11_graphs_prj
  
-20:06:15 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+03:25:21 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
 make all 
 Building file: ../src/main..cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:150:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  150 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
 Finished building: ../src/main..cpp
  
 Building target: 11_graphs_prj
@@ -394,71 +263,133 @@ Invoking: GCC C++ Linker
 g++  -o "11_graphs_prj"  ./src/main..o   
 Finished building target: 11_graphs_prj
  
-20:07:40 **** Clean-only build of configuration Debug for project 01_insertionSort_prj ****
+03:28:04 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+Building file: ../src/main..cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘bool isDFSReachable(Graph&, EdgeSet&, std::string, std::string)’:
+../src/main..cpp:72:20: error: ‘p_dst’ was not declared in this scope; did you mean ‘p_dest’?
+   72 |  std::cout<<"dst"<<p_dst<<endl;
+      |                    ^~~~~
+      |                    p_dest
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:152:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  152 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
+make: *** [src/subdir.mk:20: src/main..o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:28:16 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+Building file: ../src/main..cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:152:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  152 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
+Finished building: ../src/main..cpp
+ 
+Building target: 11_graphs_prj
+Invoking: GCC C++ Linker
+g++  -o "11_graphs_prj"  ./src/main..o   
+Finished building target: 11_graphs_prj
+ 
+03:29:01 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+Building file: ../src/main..cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main..d" -MT"src/main..o" -o "src/main..o" "../src/main..cpp"
+../src/main..cpp: In function ‘void testGraphTraversal()’:
+../src/main..cpp:152:12: warning: unused variable ‘rslt’ [-Wunused-variable]
+  152 |  for(auto &rslt : matchResultGraph)
+      |            ^~~~
+Finished building: ../src/main..cpp
+ 
+Building target: 11_graphs_prj
+Invoking: GCC C++ Linker
+g++  -o "11_graphs_prj"  ./src/main..o   
+Finished building target: 11_graphs_prj
+ 
+03:30:25 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Nothing to be done for 'all'.
+03:32:36 **** Incremental Build of configuration Debug for project 11_graphs_prj ****
+make all 
+make: Nothing to be done for 'all'.
+03:45:03 **** Clean-only build of configuration Debug for project 01_insertionSort_prj ****
 Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
 make clean 
 rm -rf  ./src/insertion_sort.o  ./src/insertion_sort.d  01_insertionSort_prj.exe
  
-20:07:40 **** Clean-only build of configuration Debug for project 02_selectionSort_prj ****
+03:45:04 **** Clean-only build of configuration Debug for project 02_selectionSort_prj ****
 Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
 make clean 
 rm -rf  ./src/selection_sort.o  ./src/selection_sort.d  02_selectionSort_prj.exe
  
-20:07:40 **** Clean-only build of configuration Debug for project 03_mergeSort_prj ****
+03:45:04 **** Clean-only build of configuration Debug for project 03_mergeSort_prj ****
 Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
 make clean 
 rm -rf  ./src/merge_sort.o  ./src/merge_sort.d  03_mergeSort_prj.exe
  
-20:07:40 **** Clean-only build of configuration Debug for project 04_heapSort ****
+03:45:04 **** Clean-only build of configuration Debug for project 04_heapSort ****
 Info: Configuration "Debug" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
 make clean 
 rm -rf  ./src/heap.o ./src/main.o  ./src/heap.d ./src/main.d  04_heapSort.exe
  
-20:07:41 **** Clean-only build of configuration Debug for project 05_dyanamicProgramming_prj ****
+03:45:04 **** Clean-only build of configuration Debug for project 05_dyanamicProgramming_prj ****
 make clean 
 rm -rf  ./src/main.o  ./src/main.d  05_dyanamicProgramming_prj
  
-20:07:41 **** Clean-only build of configuration Debug for project 06_quickSort_prj ****
+03:45:05 **** Clean-only build of configuration Debug for project 06_quickSort_prj ****
 make clean 
 rm -rf  ./src/main.o ./src/quick_sort.o  ./src/main.d ./src/quick_sort.d  06_quickSort_prj
  
-20:07:42 **** Clean-only build of configuration Debug for project 07_advancingArray_prj ****
+03:45:05 **** Clean-only build of configuration Debug for project 07_advancingArray_prj ****
 make clean 
 rm -rf  ./src/main.o  ./src/main.d  07_advancingArray_prj
  
-20:07:42 **** Clean-only build of configuration Debug for project 08_stockProfit_prj ****
+03:45:05 **** Clean-only build of configuration Debug for project 08_stockProfit_prj ****
 make clean 
 rm -rf  ./src/main.o  ./src/main.d  08_stockProfit_prj
  
-20:07:43 **** Clean-only build of configuration Debug for project 09_2dArray_prj ****
+03:45:05 **** Clean-only build of configuration Debug for project 09_2dArray_prj ****
 make clean 
 rm -rf  ./src/main.o  ./src/main.d  09_2dArray_prj
  
-20:07:43 **** Clean-only build of configuration Debug for project 10_hash_vs_bst_perf_prj ****
+03:45:06 **** Clean-only build of configuration Debug for project 10_hash_vs_bst_perf_prj ****
 make clean 
 rm -rf  ./src/main.o  ./src/main.d  10_hash_vs_bst_perf_prj
  
-20:07:43 **** Clean-only build of configuration Debug for project 10_stdVectors_prj ****
+03:45:06 **** Clean-only build of configuration Debug for project 10_stdVectors_prj ****
 make clean 
 rm -rf  ./src/main.o  ./src/main.d  10_stdVectors_prj
  
-20:07:43 **** Clean-only build of configuration Debug for project 11_graphs_prj ****
+03:45:06 **** Clean-only build of configuration Debug for project 11_graphs_prj ****
 make clean 
 rm -rf  ./src/main..o  ./src/main..d  11_graphs_prj
  
-20:07:44 **** Clean-only build of configuration Debug for project 12_smartPointer_prj ****
+03:45:07 **** Clean-only build of configuration Debug for project 12_smartPointer_prj ****
 make clean 
 rm -rf  ./src/main.o  ./src/main.d  12_smartPointer_prj
  
-20:07:44 **** Clean-only build of configuration Debug for project stl_map_prj ****
+03:45:07 **** Clean-only build of configuration Debug for project cpp01_lambdaExpressions_prj ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  cpp01_lambdaExpressions_prj
+ 
+03:45:07 **** Clean-only build of configuration Debug for project cpp02_moveSemantics_prj ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  cpp02_moveSemantics_prj
+ 
+03:45:07 **** Clean-only build of configuration Debug for project stl_map_prj ****
 make clean 
 rm -rf  ./src/main.o  ./src/main.d  stl_map_prj
  
-20:07:44 **** Clean-only build of configuration Debug for project stl_set_prj ****
+03:45:07 **** Clean-only build of configuration Debug for project stl_set_prj ****
 make clean 
 rm -rf  ./src/main.o  ./src/main.d  stl_set_prj
  
-20:07:45 **** Clean-only build of configuration Debug for project stl_unordered_set_prj ****
+03:45:08 **** Clean-only build of configuration Debug for project stl_unordered_set_prj ****
 make clean 
 rm -rf  ./src/main.o  ./src/main.d  stl_unordered_set_prj
  
